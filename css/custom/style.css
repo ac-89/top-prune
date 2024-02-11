@@ -320,6 +320,12 @@ a.mouse_hover3:focus {
   padding-top: 21px;
   padding-bottom: 15px;
 }
+/* .bottom_header .logo_holder {
+  background-image: url(../../images/home/morgane-le-breton-rqIr5yFIaGc-unsplash@0.5x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px 20px;
+} */
 .bottom_header p {
   font-weight: 900;
   font-size: 20px;
@@ -387,6 +393,7 @@ a.mouse_hover3:focus {
 .main_menu {
   position: relative;
   z-index: 9999;
+  background-color: #272727;
 }
 .main_menu nav {
   background: #6aaf08;
@@ -679,6 +686,17 @@ a.mouse_hover3:focus {
 }
 .welcome_sec .img_holder {
   position: relative;
+  overflow: hidden;
+  height: 275px;
+}
+.welcome_sec .img_holder img {
+  /* width: 100%; */
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -moz-object-fit: cover;
+  -webkit-object-fit: cover;
+  -ms-object-fit: cover;
 }
 .welcome_sec .img_holder .overlay {
   position: absolute;
@@ -710,13 +728,15 @@ a.mouse_hover3:focus {
   padding-top: 27px;
 }
 .welocme_intro .img_holder {
-  display: table-cell;
+  /* display: table-cell; */
   padding-top: 13px;
+  height: 275px;
+  overflow: hidden;
 }
 .welocme_intro .info {
-  display: table-cell;
+  /* display: table-cell; */
   vertical-align: top;
-  padding-left: 29px;
+  /* padding-left: 29px; */
 }
 .welocme_intro .info a {
   margin-top: 7px;
@@ -1368,7 +1388,7 @@ a.mouse_hover3:focus {
 /*=================== Footer ================*/
 footer {
   background: url(../../images/home/20.jpg) repeat center;
-  height: 587px;
+  /* height: 587px; */
   background-color: #1e1e1e;
   padding-top: 75px;
 }
