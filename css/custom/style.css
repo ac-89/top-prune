@@ -222,6 +222,10 @@ input {
   top: -8px;
   right: -19px;
 }
+.title_holder2 {
+  text-align: center;
+  padding-bottom: 15px;
+}
 a.mouse_hover1:hover,
 a.mouse_hover1:focus {
   background: #fff !important;
@@ -519,7 +523,7 @@ a.mouse_hover3:focus {
   font-size: 30px;
   display: block;
   height: 100%;
-  border: 1px dashed #b5d784;
+  /* border: 1px dashed #b5d784; */
   border-left: none;
   padding: 21px 0 21px 20px;
   margin-right: -5px;
