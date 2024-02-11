@@ -4130,3 +4130,7 @@ input[type="email"],
 textarea {
   color: #7d7d7d !important;
 }
+
+.hidden {
+  visibility: hidden;
+}

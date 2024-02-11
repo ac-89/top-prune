@@ -840,7 +840,18 @@
               <h3>Get Your <span>Project</span> Started</h3>
             </div>
             <!-- /title_holder2 -->
-            <form action="" class="row contact-form" netlify>
+            <form
+              action=""
+              class="row contact-form"
+              netlify-honeypot="bot-field"
+              netlify
+            >
+              <div class="hidden">
+                <label>
+                  Don’t fill this out if you’re human:
+                  <input name="bot-field" />
+                </label>
+              </div>
               <div
                 class="col-lg-6 col-md-12 col-sm-6 col-xs-12 space-fix-right"
               >
