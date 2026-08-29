@@ -88,10 +88,11 @@
       type="text/css"
       href="css/bootstrap/bootstrap.css"
       media="screen"
+      defer
     />
 
     <!-- Vendor css -->
-    <link rel="stylesheet" type="text/css" href="css/revolution/settings.css" />
+    <link rel="stylesheet" rel="preconnect" type="text/css" href="css/revolution/settings.css" />
     <link rel="stylesheet" type="text/css" href="css/revolution/layers.css" />
     <link
       rel="stylesheet"
@@ -125,19 +126,22 @@
       href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic"
       rel="stylesheet"
       type="text/css"
+      defer
     />
     <link
       href="https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic"
       rel="stylesheet"
       type="text/css"
+      defer
     />
 
     <!-- Custom Css -->
-    <link rel="stylesheet" type="text/css" href="css/custom/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom/style.css" defer/>
     <link
       rel="stylesheet"
       type="text/css"
       href="css/responsive/responsive.css"
+      defer
     />
 
     <!--[if lt IE 9]>
@@ -412,6 +416,8 @@
               <li data-transition="fade" class="slide_show slide_1">
                 <!-- Slide_show -->
                 <img
+                fetchpriority="high"
+                link rel="preload" as="image" href="images/home/IMG-20240210-WA0008.jpg"
                   class="rev-slidebg"
                   data-bgparallax="3"
                   data-bgposition="center center"
